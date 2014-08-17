@@ -10,7 +10,7 @@ group :development, :test do
 end
 
 
-
+gem 'devise'
 gem 'sass-rails', '4.0.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
@@ -24,5 +24,4 @@ end
 
 group :production do
   gem 'pg'
-  
 end

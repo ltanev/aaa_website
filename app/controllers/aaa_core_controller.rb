@@ -3,9 +3,6 @@ class AaaCoreController < ApplicationController
     @title = "Home"
   end
 
-  def events
-    @title = "Events"
-  end
 
   def shop
     @title = "Shop"
