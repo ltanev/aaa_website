@@ -1,6 +1,4 @@
 AAAWebsite::Application.routes.draw do
-  resources :comments
-
   devise_for :members
   resources :events
   match "/index" => "aaa_core#index", via: :get
